@@ -1,0 +1,24 @@
+.nav-tab{
+    @apply text-white text-base font-normal h-12 leading-none whitespace-nowrap pt-4 pr-7 pl-4 border-t-[3px] capitalize;
+}
+.nav-tab:hover{
+    @apply bg-[#393939];
+}
+.nav-tab.active{
+    border-top-width: 3px;
+    @apply bg-[#393939] border-solid border-[--bg-primary-1];
+}
+
+.logo{
+    color: #ffffff;
+}
+
+.default-nav{
+    position: sticky;
+    top: 0;
+    z-index: 6000;
+}
+
+.family-color {
+    color: rgba(var(--bg-primary-1-alt), 1);
+}
