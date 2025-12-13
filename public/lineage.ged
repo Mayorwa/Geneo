@@ -1,0 +1,1112 @@
+0 HEAD
+1 SOUR The Next Generation of Genealogy Sitebuilding
+2 VERS 12.0.1
+2 NAME The Next Generation of Genealogy Sitebuilding (R)
+2 CORP Next Generation Software, LLC
+3 ADDR Sandy, UT
+1 FILE Abraham Lincoln.ged
+1 GEDC
+2 VERS 5.5
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 SUBM @SUB1@
+0 @SUB1@ SUBM
+1 NAME Your Name
+1 EMAIL yourmail@domain.ext
+1 DEST Gedcom55
+0 @I327@ INDI
+1 NAME Abraham /Lincoln/
+2 GIVN Abraham
+2 SURN Lincoln
+1 SEX M
+1 BIRT
+2 DATE 12 FEB 1809
+2 PLAC Sinking Spring,Hodgenville,Hardin Co.,KY
+1 DEAT
+2 DATE 15 APR 1865
+2 PLAC Washington, DC
+1 BURI
+2 PLAC Oak Ridge Cemetary,Springfield, Illinois
+1 OCCU US President No. 16
+1 REFN Lincoln-1
+1 NOTE Won the 1860 election over the two democratic candidates Stephen A. Douglas
+2 CONT and John C. Breckinridge by a popular vote of 1,865,593 to 1,382,713 and
+2 CONT 848,356 and an electoral vote of 180 to 12 and 72.  Was reelected in 1864 over
+2 CONT George B. McClellan by votes of 2,206,938 to 1,803,787 and 212 to 21. Hannibal
+2 CONT Hamlin served as vice-president during his first term 1861-1865,  Andrew
+2 CONT Johnson during his second term until his assassination by John Wilkes Booth
+2 CONT on Good Friday, April 14, 1865 at Ford's Theater.  Called "Honest Abe".
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F174@
+1 FAMC @F173@
+0 @I399@ INDI
+1 NAME Mary Ann /Todd/
+2 GIVN Mary Ann
+2 SURN Todd
+1 SEX F
+1 BIRT
+2 DATE 13 DEC 1818
+2 PLAC Lexington, KY
+1 DEAT
+2 DATE 16 JUL 1882
+2 PLAC Springfield, IL
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F174@
+0 @I328@ INDI
+1 NAME Thomas /Lincoln/
+2 GIVN Thomas
+2 SURN Lincoln
+1 SEX M
+1 BIRT
+2 DATE  6 JAN 1778
+2 PLAC Augusta Co., VA
+1 DEAT
+2 DATE 17 JAN 1851
+2 PLAC Farmington, IL
+1 REFN Lincoln-2
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F175@
+1 FAMS @F173@
+0 @I330@ INDI
+1 NAME Abraham /Lincoln/
+2 GIVN Abraham
+2 SURN Lincoln
+1 SEX M
+1 BIRT
+2 DATE 13 MAY 1744
+2 PLAC Berks Co., PA
+1 DEAT
+2 DATE    MAY 1786
+2 PLAC Jefferson Co., KY
+1 REFN Lincoln-4
+1 NOTE Killed by Indians.
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F177@
+1 FAMS @F175@
+0 @I334@ INDI
+1 NAME John /Lincoln/
+2 GIVN John
+2 SURN Lincoln
+1 SEX M
+1 BIRT
+2 DATE  3 MAY 1716
+2 PLAC Freehold, NJ
+1 DEAT
+2 DATE    NOV 1788
+2 PLAC Linville's Creek, Rockingham Co., VA
+1 REFN Lincoln-8
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F181@
+1 FAMS @F177@
+0 @I342@ INDI
+1 NAME Mordecai /Lincoln/
+2 GIVN Mordecai
+2 SURN Lincoln
+1 TITL Jr.
+1 SEX M
+1 BIRT
+2 DATE 24 APR 1686
+2 PLAC Hingham, MA
+1 DEAT
+2 DATE    DEC 1736
+2 PLAC Amity, PA
+1 REFN Lincoln-16
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F187@
+1 FAMS @F181@
+0 @I354@ INDI
+1 NAME Mordecai /Lincoln/
+2 GIVN Mordecai
+2 SURN Lincoln
+1 SEX M
+1 BIRT
+2 DATE 14 JUN 1657
+2 PLAC Hingham, MA
+1 DEAT
+2 DATE 28 NOV 1727
+2 PLAC Scituate, MA
+1 REFN Lincoln-32
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F194@
+1 FAMS @F187@
+0 @I368@ INDI
+1 NAME Samuel /Lincoln/
+2 GIVN Samuel
+2 SURN Lincoln
+1 SEX M
+1 BIRT
+2 DATE ABT    1619
+2 PLAC England
+1 DEAT
+2 DATE 26 MAY 1690
+2 PLAC Hingham, MA
+1 BAPM
+2 DATE 24 AUG 1622
+2 PLAC Hingham, Norfolk, England
+1 REFN Lincoln-64
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F200@
+1 FAMS @F194@
+0 @I380@ INDI
+1 NAME Edward /Lincoln/
+2 GIVN Edward
+2 SURN Lincoln
+1 SEX M
+1 BIRT
+2 DATE ABT    1575
+1 DEAT
+2 DATE        1638/39
+2 PLAC Hingham, Norfolk, England
+1 REFN Lincoln-128
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F200@
+0 @I381@ INDI
+1 NAME Bridget /Gilman/
+2 GIVN Bridget
+2 SURN Gilman
+1 SEX F
+1 REFN Lincoln-129
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F200@
+0 @I369@ INDI
+1 NAME Martha /Lyford/
+2 GIVN Martha
+2 SURN Lyford
+1 SEX F
+1 BIRT
+2 DATE AFT    1625
+2 PLAC probably Ireland
+1 DEAT
+2 DATE 10 APR 1693
+2 PLAC Hingham, MA
+1 REFN Lincoln-65
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F201@
+1 FAMS @F194@
+0 @I382@ INDI
+1 NAME John /Lyford/
+2 GIVN John
+2 SURN Lyford
+1 SEX M
+1 DEAT
+2 DATE AFT    1634
+1 REFN Lincoln-130
+1 OCCU Reverend
+1 NOTE Rev. John Lyford was a graduate of Magdalen College (A.B. 1597, A.M. 1602) and
+2 CONT was first a minister at Leverlegkish, near Laughgaid, Armagh, Ireland.  He
+2 CONT later preached at Plymouth, Massachusetts and even later at Hull, Cape Ann and
+2 CONT Salem, Massachusetts and finally in Virginia.
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F201@
+0 @I383@ INDI
+1 NAME Sarah //
+2 GIVN Sarah
+1 SEX F
+1 REFN Lincoln-131
+1 NOTE Married second: Edmund Hubbard
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F201@
+0 @I355@ INDI
+1 NAME Sarah /Jones/
+2 GIVN Sarah
+2 SURN Jones
+1 SEX F
+1 DEAT
+2 DATE AFT    1701
+1 REFN Lincoln-33
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F195@
+1 FAMS @F187@
+0 @I370@ INDI
+1 NAME Abraham /Jones/
+2 GIVN Abraham
+2 SURN Jones
+1 SEX M
+1 BIRT
+2 DATE ABT    1630
+1 DEAT
+2 DATE 25 JAN 1717/18
+2 PLAC Hull, MA
+1 REFN Lincoln-66
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F202@
+1 FAMS @F195@
+0 @I384@ INDI
+1 NAME Thomas /Jones/
+2 GIVN Thomas
+2 SURN Jones
+1 SEX M
+1 BIRT
+2 DATE ABT    1602
+1 DEAT
+2 DATE        1679/80
+1 REFN Lincoln-132
+1 NOTE Lived in Hingham and Manchester, Mass.
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F202@
+0 @I385@ INDI
+1 NAME Ann //
+2 GIVN Ann
+1 SEX F
+1 DEAT
+2 DATE AFT    1657
+1 REFN Lincoln-133
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F202@
+0 @I371@ INDI
+1 NAME Sarah /Whitman/
+2 GIVN Sarah
+2 SURN Whitman
+1 SEX F
+1 DEAT
+2 DATE 11 JUN 1718
+2 PLAC Hull, MA
+1 REFN Lincoln-67
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F203@
+1 FAMS @F195@
+0 @I386@ INDI
+1 NAME John /Whitman/
+2 GIVN John
+2 SURN Whitman
+1 SEX M
+1 BIRT
+2 DATE ABT    1603
+1 DEAT
+2 DATE        1691/92
+2 PLAC Weymouth, MA
+1 REFN Lincoln-134
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F203@
+0 @I387@ INDI
+1 NAME Ruth //
+2 GIVN Ruth
+1 SEX F
+1 REFN Lincoln-135
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F203@
+0 @I343@ INDI
+1 NAME Hannah /Salter/
+2 GIVN Hannah
+2 SURN Salter
+1 SEX F
+1 DEAT
+2 DATE ABT    1727
+1 REFN Lincoln-17
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F188@
+1 FAMS @F181@
+0 @I356@ INDI
+1 NAME Richard /Salter/
+2 GIVN Richard
+2 SURN Salter
+1 SEX M
+1 DEAT
+2 DATE AFT    1728
+1 REFN Lincoln-34
+1 NOTE Richard Salter was a lawyer, judge and colonial legislator of Monmouth County,
+2 CONT NJ.
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F188@
+0 @I357@ INDI
+1 NAME Sarah /Bowne/
+2 GIVN Sarah
+2 SURN Bowne
+1 SEX F
+1 BIRT
+2 DATE 27 NOV 1669
+2 PLAC Gravesend, L.I., NY
+1 DEAT
+2 DATE AFT    1714
+1 REFN Lincoln-35
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F196@
+1 FAMS @F188@
+0 @I372@ INDI
+1 NAME John /Bowne/
+2 GIVN John
+2 SURN Bowne
+1 SEX M
+1 BIRT
+2 DATE ABT    1630
+1 DEAT
+2 DATE        1683/84
+2 PLAC Monmouth Co., NJ
+1 REFN Lincoln-70
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F204@
+1 FAMS @F196@
+0 @I388@ INDI
+1 NAME William /Bowne/
+2 GIVN William
+2 SURN Bowne
+1 SEX M
+1 DEAT
+2 DATE ABT    1677
+1 REFN Lincoln-140
+1 NOTE Lived in Salem, Mass., Gravesend, L.I. and Middletown, NJ
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F204@
+0 @I389@ INDI
+1 NAME Ann //
+2 GIVN Ann
+1 SEX F
+1 REFN Lincoln-141
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F204@
+0 @I373@ INDI
+1 NAME Lydia /Holmes/
+2 GIVN Lydia
+2 SURN Holmes
+1 SEX F
+1 DEAT
+2 DATE AFT    1693
+1 REFN Lincoln-71
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F205@
+1 FAMS @F196@
+0 @I390@ INDI
+1 NAME Obadiah /Holmes/
+2 GIVN Obadiah
+2 SURN Holmes
+1 SEX M
+1 BIRT
+2 DATE        1608/09
+2 PLAC England
+1 DEAT
+2 DATE        1681/82
+1 REFN Lincoln-142
+1 NOTE Was minister of the First Baptist Church at Newport, RI.  Emigrated from
+2 CONT Didsbury, Lancashire, England to Newport in 1630.
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F205@
+0 @I391@ INDI
+1 NAME Katherine /Hyde/
+2 GIVN Katherine
+2 SURN Hyde
+1 SEX F
+1 REFN Lincoln-143
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F205@
+0 @I335@ INDI
+1 NAME Rebecca /Flowers/
+2 GIVN Rebecca
+2 SURN Flowers
+1 SEX F
+1 BIRT
+2 DATE 30 MAR 1720
+1 DEAT
+2 DATE 20 JUL 1806
+2 PLAC Linville's Creek, Rockingham Co., VA
+1 REFN Lincoln-9
+1 NOTE She was the widow of James Morris.
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F182@
+1 FAMS @F177@
+0 @I344@ INDI
+1 NAME Enoch /Flowers/
+2 GIVN Enoch
+2 SURN Flowers
+1 SEX M
+1 BIRT
+2 DATE ABT    1693
+1 REFN Lincoln-18
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F189@
+1 FAMS @F182@
+0 @I358@ INDI
+1 NAME William /Flower/
+2 GIVN William
+2 SURN Flower
+1 SEX M
+1 REFN Lincoln-36
+1 NOTE Birth place unknown, but lived in Marcus Hook, PA and was a member of the
+2 CONT Quaker Meeting in Concord, PA.
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F189@
+0 @I359@ INDI
+1 NAME Elizabeth /Moris/
+2 GIVN Elizabeth
+2 SURN Moris
+1 SEX F
+1 REFN Lincoln-37
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F189@
+0 @I345@ INDI
+1 NAME Rebecca /Barnard/
+2 GIVN Rebecca
+2 SURN Barnard
+1 SEX F
+1 REFN Lincoln-19
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F190@
+1 FAMS @F182@
+0 @I360@ INDI
+1 NAME Richard /Barnard/
+2 GIVN Richard
+2 SURN Barnard
+1 SEX M
+1 BIRT
+2 PLAC Kingston, Wiltshire, England
+1 DEAT
+2 DATE ABT    1698
+1 REFN Lincoln-38
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F190@
+0 @I361@ INDI
+1 NAME Frances /Lambe/
+2 GIVN Frances
+2 SURN Lambe
+1 SEX F
+1 REFN Lincoln-39
+1 NOTE Married second: Thomas Bowater
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F197@
+1 FAMS @F190@
+0 @I374@ INDI
+1 NAME Richard /Lambe/
+2 GIVN Richard
+2 SURN Lambe
+1 SEX M
+1 REFN Lincoln-78
+1 NOTE Listed as "of Kingston, St. Michael's, Wiltshire, England"
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F197@
+0 @I375@ INDI
+1 NAME Lucy /Baillie/
+2 GIVN Lucy
+2 SURN Baillie
+1 SEX F
+1 REFN Lincoln-79
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F197@
+0 @I331@ INDI
+1 NAME Bathsheba /Herring/
+2 GIVN Bathsheba
+2 SURN Herring
+1 TITL (?)
+1 SEX F
+1 BIRT
+2 DATE ABT    1750
+1 DEAT
+2 DATE ABT    1836
+1 REFN Lincoln-5
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F178@
+1 FAMS @F175@
+0 @I336@ INDI
+1 NAME Alexander /Herring/
+2 GIVN Alexander
+2 SURN Herring
+1 TITL (?) Jr.
+1 SEX M
+1 BIRT
+2 DATE ABT    1708
+1 DEAT
+2 DATE ABT    1778
+2 PLAC Rockingham Co., VA
+1 REFN Lincoln-10
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F183@
+1 FAMS @F178@
+0 @I346@ INDI
+1 NAME Alexander /Herring/
+2 GIVN Alexander
+2 SURN Herring
+1 SEX M
+1 DEAT
+2 DATE ABT    1735
+2 PLAC Sussex Co., DE
+1 REFN Lincoln-20
+1 NOTE Last name also spelled Herron.
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F183@
+0 @I347@ INDI
+1 NAME Margaret //
+2 GIVN Margaret
+1 SEX F
+1 DEAT
+2 DATE AFT    1735
+1 REFN Lincoln-21
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F183@
+0 @I337@ INDI
+1 NAME Abigail /Harrison/
+2 GIVN Abigail
+2 SURN Harrison
+1 SEX F
+1 BIRT
+2 DATE ABT    1710
+2 PLAC Smithtown, Long Island, NY
+1 DEAT
+2 DATE ABT    1780
+2 PLAC Rockingham Co., VA
+1 REFN Lincoln-11
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F184@
+1 FAMS @F178@
+0 @I348@ INDI
+1 NAME Isaiah /Harrison/
+2 GIVN Isaiah
+2 SURN Harrison
+1 SEX M
+1 BIRT
+2 DATE ABT    1666
+1 DEAT
+2 DATE ABT    1738
+2 PLAC Sussex Co., DE
+1 REFN Lincoln-22
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F184@
+0 @I349@ INDI
+1 NAME Abigail //
+2 GIVN Abigail
+1 SEX F
+1 DEAT
+2 PLAC Sussex Co., DE
+1 REFN Lincoln-23
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F184@
+0 @I329@ INDI
+1 NAME Nancy /Hanks/
+2 GIVN Nancy
+2 SURN Hanks
+1 SEX F
+1 BIRT
+2 DATE  5 FEB 1784
+2 PLAC Campbell Co., KY
+1 DEAT
+2 DATE  5 OCT 1818
+2 PLAC Gentryville, IN
+1 REFN Lincoln-3
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F176@
+1 FAMS @F173@
+0 @I332@ INDI
+1 NAME James (or Abraham) /Hanks/
+2 GIVN James (or Abraham)
+2 SURN Hanks
+1 SEX M
+1 BIRT
+2 DATE ABT    1759
+2 PLAC NC
+1 DEAT
+2 DATE ABT    1810
+1 REFN Lincoln-6
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F179@
+1 FAMS @F176@
+0 @I338@ INDI
+1 NAME Joseph /Hanks/
+2 GIVN Joseph
+2 SURN Hanks
+1 SEX M
+1 BIRT
+2 DATE ABT    1722
+1 DEAT
+2 DATE ABT    1793
+2 PLAC Nelson Co., KY
+1 REFN Lincoln-12
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F185@
+1 FAMS @F179@
+0 @I350@ INDI
+1 NAME Luke /Hanks/
+2 GIVN Luke
+2 SURN Hanks
+1 SEX M
+1 BIRT
+2 DATE ABT    1686
+2 PLAC Richmond Co., VA
+1 DEAT
+2 DATE AFT    1757
+2 PLAC Lancaster Co., VA
+1 REFN Lincoln-24
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F191@
+1 FAMS @F185@
+0 @I362@ INDI
+1 NAME William /Hanks/
+2 GIVN William
+2 SURN Hanks
+1 SEX M
+1 BIRT
+2 DATE ABT    1650
+1 DEAT
+2 DATE AFT    1704
+2 PLAC Richmond Co., VA
+1 REFN Lincoln-48
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F198@
+1 FAMS @F191@
+0 @I376@ INDI
+1 NAME Thomas /Hanks/
+2 GIVN Thomas
+2 SURN Hanks
+1 SEX M
+1 DEAT
+2 DATE AFT    1674
+1 REFN Lincoln-96
+1 NOTE "of Gloucester Co., VA"
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F198@
+0 @I377@ INDI
+1 NAME Elizabeth //
+2 GIVN Elizabeth
+1 SEX F
+1 REFN Lincoln-97
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F198@
+0 @I363@ INDI
+1 NAME Sarah //
+2 GIVN Sarah
+1 SEX F
+1 REFN Lincoln-49
+1 NOTE Married second: Richard White
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F191@
+0 @I351@ INDI
+1 NAME Elizabeth //
+2 GIVN Elizabeth
+1 SEX F
+1 BIRT
+2 DATE ABT    1694
+1 REFN Lincoln-25
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F185@
+0 @I339@ INDI
+1 NAME Nanny //
+2 GIVN Nanny
+1 SEX F
+1 BIRT
+2 DATE ABT    1728
+1 REFN Lincoln-13
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F179@
+0 @I333@ INDI
+1 NAME Lucy /Shipley/
+2 GIVN Lucy
+2 SURN Shipley
+1 SEX F
+1 BIRT
+2 DATE ABT    1765
+1 DEAT
+2 DATE        1825
+1 REFN Lincoln-7
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F180@
+1 FAMS @F176@
+0 @I340@ INDI
+1 NAME Robert /Shipley/
+2 GIVN Robert
+2 SURN Shipley
+1 TITL Jr.
+1 SEX M
+1 BAPM
+2 DATE 19 OCT 1713
+2 PLAC Howard Co., MD
+1 REFN Lincoln-14
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F186@
+1 FAMS @F180@
+0 @I352@ INDI
+1 NAME Robert /Shipley/
+2 GIVN Robert
+2 SURN Shipley
+1 SEX M
+1 BIRT
+2 DATE ABT    1678
+2 PLAC Annapolis, MD
+1 DEAT
+2 DATE ABT    1763
+2 PLAC Anne Arundel, MD
+1 REFN Lincoln-28
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F192@
+1 FAMS @F186@
+0 @I364@ INDI
+1 NAME Adam /Shipley/
+2 GIVN Adam
+2 SURN Shipley
+1 SEX M
+1 REFN Lincoln-56
+1 NOTE Lived in Anne Arundel Co., MD.
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F192@
+0 @I365@ INDI
+1 NAME Lois //
+2 GIVN Lois
+1 SEX F
+1 REFN Lincoln-57
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F192@
+0 @I353@ INDI
+1 NAME Elizabeth /Stevens/
+2 GIVN Elizabeth
+2 SURN Stevens
+1 SEX F
+1 REFN Lincoln-29
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F193@
+1 FAMS @F186@
+0 @I366@ INDI
+1 NAME Charles /Stevens/
+2 GIVN Charles
+2 SURN Stevens
+1 TITL Jr.
+1 SEX M
+1 BIRT
+2 DATE ABT    1645
+1 DEAT
+2 DATE ABT    1703
+2 PLAC Anne Arundel Co., MD
+1 REFN Lincoln-58
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMC @F199@
+1 FAMS @F193@
+0 @I378@ INDI
+1 NAME Charles /Stevens/
+2 GIVN Charles
+2 SURN Stevens
+1 SEX M
+1 BIRT
+2 DATE ABT    1615
+1 DEAT
+2 DATE ABT    1658
+2 PLAC Anne Arundel Co., MD
+1 REFN Lincoln-116
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F199@
+0 @I379@ INDI
+1 NAME Susannah /Norwood/
+2 GIVN Susannah
+2 SURN Norwood
+1 TITL (?)
+1 SEX F
+1 BIRT
+2 DATE ABT    1620
+1 REFN Lincoln-117
+1 NOTE The name Norwood is not proven.  She married second: John Howard
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F199@
+0 @I367@ INDI
+1 NAME Elizabeth //
+2 GIVN Elizabeth
+1 SEX F
+1 REFN Lincoln-59
+1 NOTE Married second: Thomas Browne
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F193@
+0 @I341@ INDI
+1 NAME Sarah //
+2 GIVN Sarah
+1 SEX F
+1 BAPM
+2 DATE ABT    1740
+2 PLAC MD
+1 REFN Lincoln-15
+1 NOTE Last name may have been Dorsey.
+1 CHAN
+2 DATE 27 Jan 2014
+1 FAMS @F180@
+0 @F174@ FAM
+1 HUSB @I327@
+1 WIFE @I399@
+1 MARR
+2 DATE  4 NOV 1842
+2 PLAC Springfield, IL
+1 CHAN
+2 DATE 27 Jan 2014
+0 @F173@ FAM
+1 HUSB @I328@
+1 WIFE @I329@
+1 MARR
+2 DATE 12 JUN 1806
+2 PLAC Washington Co., KY
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I327@
+0 @F175@ FAM
+1 HUSB @I330@
+1 WIFE @I331@
+1 MARR
+2 DATE    MAY 1786
+2 PLAC Augusta Co., VA
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I328@
+0 @F177@ FAM
+1 HUSB @I334@
+1 WIFE @I335@
+1 MARR
+2 DATE  5 JUL 1743
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I330@
+0 @F181@ FAM
+1 HUSB @I342@
+1 WIFE @I343@
+1 MARR
+2 DATE ABT    1714
+2 PLAC Monmouth Co., NJ
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I334@
+0 @F187@ FAM
+1 HUSB @I354@
+1 WIFE @I355@
+1 MARR
+2 DATE ABT    1685
+2 PLAC Hull, MA
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I342@
+0 @F194@ FAM
+1 HUSB @I368@
+1 WIFE @I369@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I354@
+0 @F200@ FAM
+1 HUSB @I380@
+1 WIFE @I381@
+1 MARR
+2 DATE ABT    1600
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I368@
+0 @F201@ FAM
+1 HUSB @I382@
+1 WIFE @I383@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I369@
+0 @F195@ FAM
+1 HUSB @I370@
+1 WIFE @I371@
+1 MARR
+2 DATE ABT    1656
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I355@
+0 @F202@ FAM
+1 HUSB @I384@
+1 WIFE @I385@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I370@
+0 @F203@ FAM
+1 HUSB @I386@
+1 WIFE @I387@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I371@
+0 @F188@ FAM
+1 HUSB @I356@
+1 WIFE @I357@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I343@
+0 @F196@ FAM
+1 HUSB @I372@
+1 WIFE @I373@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I357@
+0 @F204@ FAM
+1 HUSB @I388@
+1 WIFE @I389@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I372@
+0 @F205@ FAM
+1 HUSB @I390@
+1 WIFE @I391@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I373@
+0 @F182@ FAM
+1 HUSB @I344@
+1 WIFE @I345@
+1 MARR
+2 DATE AFT    1713
+2 PLAC Concord, PA
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I335@
+0 @F189@ FAM
+1 HUSB @I358@
+1 WIFE @I359@
+1 MARR
+2 DATE AFT    1692
+2 PLAC PA
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I344@
+0 @F190@ FAM
+1 HUSB @I360@
+1 WIFE @I361@
+1 MARR
+2 DATE        1677/78
+2 PLAC Wiltshire, England
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I345@
+0 @F197@ FAM
+1 HUSB @I374@
+1 WIFE @I375@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I361@
+0 @F178@ FAM
+1 HUSB @I336@
+1 WIFE @I337@
+1 MARR
+2 DATE AFT    1735
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I331@
+0 @F183@ FAM
+1 HUSB @I346@
+1 WIFE @I347@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I336@
+0 @F184@ FAM
+1 HUSB @I348@
+1 WIFE @I349@
+1 MARR
+2 DATE ABT    1700
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I337@
+0 @F176@ FAM
+1 HUSB @I332@
+1 WIFE @I333@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I329@
+0 @F179@ FAM
+1 HUSB @I338@
+1 WIFE @I339@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I332@
+0 @F185@ FAM
+1 HUSB @I350@
+1 WIFE @I351@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I338@
+0 @F191@ FAM
+1 HUSB @I362@
+1 WIFE @I363@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I350@
+0 @F198@ FAM
+1 HUSB @I376@
+1 WIFE @I377@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I362@
+0 @F180@ FAM
+1 HUSB @I340@
+1 WIFE @I341@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I333@
+0 @F186@ FAM
+1 HUSB @I352@
+1 WIFE @I353@
+1 MARR
+2 DATE ABT    1710
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I340@
+0 @F192@ FAM
+1 HUSB @I364@
+1 WIFE @I365@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I352@
+0 @F193@ FAM
+1 HUSB @I366@
+1 WIFE @I367@
+1 MARR
+2 DATE ABT    1670
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I353@
+0 @F199@ FAM
+1 HUSB @I378@
+1 WIFE @I379@
+1 CHAN
+2 DATE 27 Jan 2014
+1 CHIL @I366@
+0 TRLR

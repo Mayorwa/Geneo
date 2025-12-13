@@ -84,7 +84,7 @@
     --bg-white: #FFFFFF;
 }
 
-.grid{
+.leaf{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     max-width: 1000px;
@@ -93,7 +93,7 @@
     row-gap: 90px;
 }
 
-.grid-outer{
+.leaf-outer{
     padding: 60px 0;
 }
 
@@ -159,27 +159,27 @@
     }
 }
 
-.card:after, .card:before, .grid:after, .grid:before {
+.card:after, .card:before, .leaf:after, .leaf:before {
     background-color: var(--bg-secondary-2);
 }
 
-.grid.grid-partners:before {
+.leaf.leaf-partners:before {
     display: block;
     content: '';
     position: absolute;
     top: -75px;
-    bottom: -75px;
+    bottom: -74px;
     margin-left: -1px;
     width: 1px;
     left: calc(((100% - 120px) / 4) / 2);
 }
 
-.family-tree .family-tree_branch:last-child .grid-outer:last-child .grid.grid-partners:before {
+.family-tree .family-tree_branch:last-child .leaf-outer:last-child .leaf.leaf-partners:before {
     bottom: auto;
     height: 75px;
 }
 
-.family-tree .family-tree_branch:first-child .grid-outer:first-child .grid.grid-partners:before{
+.family-tree .family-tree_branch:first-child .leaf-outer:first-child .leaf.leaf-partners:before{
     top: 0;
 }
 
@@ -193,7 +193,7 @@
     height: 1px;
 }
 
-.grid.grid-parents:before {
+.leaf.leaf-parents:before {
     display: block;
     content: '';
     position: absolute;
@@ -270,16 +270,16 @@
     color: var(--white);
     background-color: var(--bg-primary);
 }
-.grid.grid-children{
+.leaf.leaf-children{
     row-gap: 120px;
 }
 
-.grid-children .card-childNode:nth-child(3n+1):before {
+.leaf-children .card-childNode:nth-child(3n+1):before {
     left: -50%;
     margin-left: -40px;
 }
 
-.grid-children .card-childNode:nth-child(3n+1):not(:last-child):before, .grid-children .card-childNode:nth-child(3n+2):not(:last-child):before{
+.leaf-children .card-childNode:nth-child(3n+1):not(:last-child):before, .leaf-children .card-childNode:nth-child(3n+2):not(:last-child):before{
     right: -40px;
 }
 
@@ -290,7 +290,7 @@
     }
 }
 
-.grid.grid-children:before {
+.leaf.leaf-children:before {
     display: block;
     content: '';
     position: absolute;
@@ -301,16 +301,16 @@
     left: calc(((100% - 120px) / 4) / 2);
 }
 
-.grid.grid-children .card:nth-child(3n+1){
+.leaf.leaf-children .card:nth-child(3n+1){
     grid-column-start: 2;
 }
 
-.family-tree_branch:last-child .grid-children::before{
+.family-tree_branch:last-child .leaf-children::before{
     bottom: auto;
-    height: 30px;
+    height: 29px;
 }
 
-.family-tree_branch:last-child .grid-children[data-extended="true"]::before{
+.family-tree_branch:last-child .leaf-children[data-extended="true"]::before{
     bottom: calc(50% - 14px);
     height: unset;
 }

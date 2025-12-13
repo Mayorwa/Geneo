@@ -6,7 +6,7 @@ import Loader from "@/components/ui/Loader.tsx";
 
 interface ButtonProps {
     variant?: 'primary' | 'outline' | 'text';
-    size?: 'sm' | 'md' | 'lg';
+    size?: 'sm' | 'base' | 'lg' | 'xl';
     ariaLabel?: string;
     ariaLabelledBy?: string;
     disabled?: boolean;
@@ -20,7 +20,7 @@ interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = ({variant = 'primary', size = 'md', ariaLabel = '', ariaLabelledBy = '', disabled = false, btnClass = '', loading = false, name, onClick, children}) => {
     const getClasses = () => {
-        const sizeClass = size ? `btn-${size}` : '';
+        const sizeClass = size ? `button-${size}` : '';
         const variantClass = variant ? `button--${variant}` : '';
         const disabledClass = disabled ? 'btn-disabled' : '';
         const loadingClass = loading ? 'btn-loading' : '';

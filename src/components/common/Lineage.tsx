@@ -3,7 +3,7 @@ import Individual from "@/components/common/Individual.tsx";
 import { IndividualType, IIndividual, ILineage } from "@/types";
 import {useLineage} from "@/context/LineageContext.tsx";
 
-const Lineage: React.FC<{lineageId: number}> = ({ lineageId }) => {
+const Lineage: React.FC<{lineageId: number, refCallback: HTMLDivElement}> = ({ lineageId, refCallback }) => {
     const { lineage } = useLineage();
     const family: ILineage = lineage[lineageId];
     const getRelation = (individual: IIndividual, relation: string) => {
@@ -24,14 +24,14 @@ const Lineage: React.FC<{lineageId: number}> = ({ lineageId }) => {
     }
     return (
         <>
-            <div className="family-tree_branch">
+            <div className="family-tree_branch" ref={refCallback}>
                 <div className="container">
                     {
                         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
                         // @ts-expect-error
                         family?.parents?.length > 0 &&
-                        (<div className="grid-outer">
-                            <div className="grid grid-parents">
+                        (<div className="leaf-outer">
+                            <div className="leaf leaf-parents">
                                 {
                                     family.parents?.map((parent: IIndividual, index: number) => (
                                         <Individual key={`parent-${parent.familyStarted}-${index}`} {...parent} relation={getRelation(parent, 'parent')} />
@@ -42,8 +42,8 @@ const Lineage: React.FC<{lineageId: number}> = ({ lineageId }) => {
                         )
                     }
 
-                    <div className="grid-outer">
-                        <div className="grid grid-partners grid-root">
+                    <div className="leaf-outer">
+                        <div className="leaf leaf-partners leaf-root">
                             <Individual {...family.root} relation={getRelation(family.root, 'root')} />
                             {
                                 family.partners?.map((partner: IIndividual, index: number) => (
@@ -57,8 +57,8 @@ const Lineage: React.FC<{lineageId: number}> = ({ lineageId }) => {
                         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
                         // @ts-expect-error
                         family?.children?.length > 0 && (
-                        <div className="grid-outer">
-                            <div className="grid grid-children" data-extended={`${family?.children?.length > 3}`}>
+                        <div className="leaf-outer">
+                            <div className="leaf leaf-children" data-extended={`${family?.children?.length > 3}`}>
                                 {
                                     family.children?.map((child: IIndividual, index: number) => (
                                         <Individual key={`child-${child.familyStarted}-${index}`} {...child} relation={getRelation(child, 'child')} />

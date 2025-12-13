@@ -60,3 +60,18 @@
     opacity: 0.8;
     cursor: not-allowed;
 }
+
+.button-base{
+    min-height: 45px;
+    padding: 0 16px;
+    @apply text-base;
+}
+
+.button-lg{
+    @apply text-lg;
+}
+
+.button-xl{
+
+    @apply text-xl;
+}

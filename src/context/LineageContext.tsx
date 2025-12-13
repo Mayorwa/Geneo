@@ -100,16 +100,15 @@ export const LineageProvider = ({ children }: { children: ReactNode }) => {
     const getOpenedSiblingsIndex = (familyComingFromId: string) =>
         lineage.findIndex(obj => obj.root.familyComingFrom === familyComingFromId);
 
-    const populateIndividualLineage = (familyStartedId: string): number => {
-        // 1. Already open?
+    const populateIndividualLineage = (familyStartedId: string) => {
         const existing = checkIfIndexIsOpen(familyStartedId);
         if (existing >= 0) return existing;
 
-        // 2. Fetch new data
         const data: ILineage = sample_data[familyStartedId];
 
-        // 3. Remove sibling branches
-        const siblingIdx = getOpenedSiblingsIndex(data.root.familyComingFrom);
+        if (!data) return null;
+
+        const siblingIdx = getOpenedSiblingsIndex(data?.root?.familyComingFrom);
 
         let newLineage = [...lineage];
         if (siblingIdx >= 0) {

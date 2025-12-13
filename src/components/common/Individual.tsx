@@ -42,7 +42,7 @@ const Individual: React.FC<Props> = (props) => {
         if (resIdx !== undefined && resIdx !== null) {
             // Wait for DOM update
             requestAnimationFrame(() => {
-                const familyEl = familyRefs.current[resIdx];
+                const familyEl = familyRefs.current[familyStartedId];
                 if (familyEl) {
                     familyEl.scrollIntoView({
                         behavior: "smooth",
@@ -51,9 +51,7 @@ const Individual: React.FC<Props> = (props) => {
                 }
             });
         }
-        setTimeout(()=> {
-            setLoading(false);
-        }, 3000)
+        setLoading(false);
     }
 
     return (
