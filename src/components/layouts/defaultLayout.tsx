@@ -11,8 +11,11 @@ const DefaultLayout: React.FC<{ children: ReactNode; }> = ({children}) => {
     }, []);
     return (
         <>
-            <div className="bg-black flex w-full text-white">
+            <div className="bg-black flex flex-col justify-between text-white h-[15rem]">
                 <Header/>
+                <div className="container my-8">
+                    <h2 className="text-6xl font-light">Genea</h2>
+                </div>
             </div>
             <section>
                 {children}
