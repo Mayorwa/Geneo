@@ -11,6 +11,8 @@ import DashboardLayout from "@/components/layouts/dashboardLayout.tsx";
 // views
 import TreePage from "@/views/tree.tsx"
 import IndexPage from "@/views/index.tsx"
+import BioPage from "@/views/bio.tsx";
+import TimelinePage from "@/views/timeline.tsx";
 import NotFoundPage from "@/views/NotFound/404.tsx";
 import {LineageProvider} from "@/context/LineageContext.tsx";
 
@@ -27,10 +29,27 @@ const Router: React.FC = () => {
                     }
                 />
                 <Route
+                    path={"/bio"}
+                    element={
+                        <LoggedOutGuard>
+                            <DashboardLayout children={<BioPage />}/>
+                        </LoggedOutGuard>
+                    }
+                />
+                <Route
                     path={"/tree"}
                     element={
                         <LoggedOutGuard>
                             <DashboardLayout children={<TreePage />}/>
+                        </LoggedOutGuard>
+                    }
+                />
+
+                <Route
+                    path={"/timeline"}
+                    element={
+                        <LoggedOutGuard>
+                            <DashboardLayout children={<TimelinePage />}/>
                         </LoggedOutGuard>
                     }
                 />

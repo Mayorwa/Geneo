@@ -314,3 +314,23 @@
     bottom: calc(50% - 14px);
     height: unset;
 }
+
+.timeline-grid {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    height: 300px;
+    position: relative;
+}
+
+.timeline-grid::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: repeating-linear-gradient(
+            to right,
+            transparent,
+            transparent calc(100% / 20 - 1px),
+            #e5e7eb calc(100% / 20)
+    );
+    pointer-events: none;
+}
