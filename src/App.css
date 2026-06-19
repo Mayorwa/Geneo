@@ -77,14 +77,24 @@
 
     --bg-primary: #000000;
     --bg-primary-1: #0f62fe;
-    --bg-primary-1-alt: 15,98,254;
+    --bg-primary-2: #669bff;
+    --bg-primary-1-alt: 15, 98, 254;
     --bg-secondary: #e7ecf0;
     --bg-secondary-1: #edf1f4;
     --bg-secondary-2: #ced0d9;
     --bg-white: #FFFFFF;
+
+    --fg-100: rgb(0 0 0 / 1);
+    --fg-50: rgb(0 0 0 / 0.5);
+    --fg-33: rgb(0 0 0 / 0.333);
+    --fg-25: rgb(0 0 0 / 0.25);
+    --fg-20: rgb(0 0 0 / 0.2);
+    --fg-15: rgb(0 0 0 / 0.15);
 }
 
-.leaf{
+
+
+.leaf {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     max-width: 1000px;
@@ -93,7 +103,7 @@
     row-gap: 90px;
 }
 
-.leaf-outer{
+.leaf-outer {
     padding: 60px 0;
 }
 
@@ -102,27 +112,28 @@
     background-color: var(--white);
     display: flex;
     flex-direction: column;
-    &.card-root .card-content{
+
+    &.card-root .card-content {
         background-color: var(--bg-primary);
         color: var(--white);
     }
-    .card-content{
+
+    .card-content {
         text-align: center;
         display: table;
         width: 100%;
         min-height: 100px;
-        .card-content_inner{
+
+        .card-content_inner {
             display: table-cell;
             padding: 10px 20px;
             width: 100%;
             height: 100%;
             vertical-align: middle;
-            h3{
-
-            }
         }
     }
-    .card-img{
+
+    .card-img {
         display: block;
         padding-bottom: 100%;
         height: 0;
@@ -130,6 +141,7 @@
         background-position: center;
         border-radius: 3px 3px 0 0;
     }
+
     .card-options {
         position: absolute;
         left: 0;
@@ -137,7 +149,8 @@
         bottom: -25px;
         width: 100%;
         z-index: 10;
-        .card-options_branch{
+
+        .card-options_branch {
             cursor: pointer;
             text-align: center;
             color: var(--bg-primary-1);
@@ -159,7 +172,10 @@
     }
 }
 
-.card:after, .card:before, .leaf:after, .leaf:before {
+.card:after,
+.card:before,
+.leaf:after,
+.leaf:before {
     background-color: var(--bg-secondary-2);
 }
 
@@ -179,7 +195,7 @@
     height: 75px;
 }
 
-.family-tree .family-tree_branch:first-child .leaf-outer:first-child .leaf.leaf-partners:before{
+.family-tree .family-tree_branch:first-child .leaf-outer:first-child .leaf.leaf-partners:before {
     top: 0;
 }
 
@@ -250,7 +266,7 @@
     z-index: 10;
 }
 
-.card-label{
+.card-label {
     position: absolute;
     top: -10px;
     left: 0;
@@ -264,13 +280,15 @@
     letter-spacing: 0.05em;
     z-index: 20;
 }
-.card-label_inner{
+
+.card-label_inner {
     display: inline-block;
     padding: 3px 8px;
     color: var(--white);
     background-color: var(--bg-primary);
 }
-.leaf.leaf-children{
+
+.leaf.leaf-children {
     row-gap: 120px;
 }
 
@@ -279,13 +297,15 @@
     margin-left: -40px;
 }
 
-.leaf-children .card-childNode:nth-child(3n+1):not(:last-child):before, .leaf-children .card-childNode:nth-child(3n+2):not(:last-child):before{
+.leaf-children .card-childNode:nth-child(3n+1):not(:last-child):before,
+.leaf-children .card-childNode:nth-child(3n+2):not(:last-child):before {
     right: -40px;
 }
 
 .family-tree_branch:nth-child(even) {
     background-color: var(--bg-secondary);
-    .card-options_branch{
+
+    .card-options_branch {
         border-color: var(--bg-secondary);
     }
 }
@@ -301,16 +321,16 @@
     left: calc(((100% - 120px) / 4) / 2);
 }
 
-.leaf.leaf-children .card:nth-child(3n+1){
+.leaf.leaf-children .card:nth-child(3n+1) {
     grid-column-start: 2;
 }
 
-.family-tree_branch:last-child .leaf-children::before{
+.family-tree_branch:last-child .leaf-children::before {
     bottom: auto;
     height: 29px;
 }
 
-.family-tree_branch:last-child .leaf-children[data-extended="true"]::before{
+.family-tree_branch:last-child .leaf-children[data-extended="true"]::before {
     bottom: calc(50% - 14px);
     height: unset;
 }
@@ -326,11 +346,9 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-image: repeating-linear-gradient(
-            to right,
+    background-image: repeating-linear-gradient(to right,
             transparent,
             transparent calc(100% / 20 - 1px),
-            #e5e7eb calc(100% / 20)
-    );
+            #e5e7eb calc(100% / 20));
     pointer-events: none;
 }
