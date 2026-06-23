@@ -66,6 +66,35 @@ export const sample_data = {
                 birthdate: '1965',
             },
         ]},
+    "@F023@": {
+        root: {
+            name: 'Rachael Geller',
+            individualType: IndividualType.Individual,
+            gender: 'female',
+            familyComingFrom: '@F011@',
+            familyStarted: '@F022@',
+            birthdate: '1943',
+            deathdate: '2013',
+        },
+        partners: [
+            {
+                name: 'Ross Geller ',
+                individualType: IndividualType.Partner,
+                gender: 'male',
+                birthdate: '1939',
+                familyComingFrom: '@F317@',
+                familyStarted: '@F022@',
+            },
+        ],
+        children: [
+            {
+                name: 'Ben Geller',
+                individualType: IndividualType.Child,
+                gender: 'male',
+                familyComingFrom: '@F022@',
+                birthdate: '1965',
+            },
+        ]},
     "@F048@": {
         root: {
             name: 'Dmitry Allison',
