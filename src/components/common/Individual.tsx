@@ -64,7 +64,7 @@ const Individual: React.FC<Props> = (props) => {
                     </div>
                 }
 
-                <div className="card-img" style={{ backgroundImage: "url('/default-portrait1.jpg')" }}></div>
+                <div className="card-img" style={{ backgroundImage: "url('/default-portrait.jpg')" }}></div>
                 <div className="card-content">
                     <div className="card-content_inner">
                         <h3>{ props.name}</h3>
