@@ -1,9 +1,9 @@
 import React from 'react';
 import Individual from "@/components/common/Individual.tsx";
 import { IndividualType, IIndividual, ILineage } from "@/types";
-import {useLineage} from "@/context/LineageContext.tsx";
+import { useLineage } from "@/context/LineageContext.tsx";
 
-const Lineage: React.FC<{lineageId: number, refCallback: HTMLDivElement}> = ({ lineageId, refCallback }) => {
+const Lineage: React.FC<{ lineageId: number, refCallback: (el: HTMLDivElement) => void }> = ({ lineageId, refCallback }) => {
     const { lineage } = useLineage();
     const family: ILineage = lineage[lineageId];
     const getRelation = (individual: IIndividual, relation: string) => {
@@ -25,12 +25,13 @@ const Lineage: React.FC<{lineageId: number, refCallback: HTMLDivElement}> = ({ l
     return (
         <>
             <div className="family-tree_branch" ref={refCallback}>
+
                 <div className="container">
                     {
                         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
                         // @ts-expect-error
                         family?.parents?.length > 0 &&
-                        (<div className="leaf-outer">
+                        (<div className="leaf-outer" id={`${family?.root?.familyStarted}-parent`}>
                             <div className="leaf leaf-parents">
                                 {
                                     family.parents?.map((parent: IIndividual, index: number) => (
@@ -42,7 +43,7 @@ const Lineage: React.FC<{lineageId: number, refCallback: HTMLDivElement}> = ({ l
                         )
                     }
 
-                    <div className="leaf-outer">
+                    <div className="leaf-outer" id={`${family?.root?.familyStarted}-root`}>
                         <div className="leaf leaf-partners leaf-root">
                             <Individual {...family.root} relation={getRelation(family.root, 'root')} />
                             {
@@ -57,15 +58,15 @@ const Lineage: React.FC<{lineageId: number, refCallback: HTMLDivElement}> = ({ l
                         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
                         // @ts-expect-error
                         family?.children?.length > 0 && (
-                        <div className="leaf-outer">
-                            <div className="leaf leaf-children" data-extended={`${family?.children?.length > 3}`}>
-                                {
-                                    family.children?.map((child: IIndividual, index: number) => (
-                                        <Individual key={`child-${child.familyStarted}-${index}`} {...child} relation={getRelation(child, 'child')} />
-                                    ))
-                                }
+                            <div className="leaf-outer" id={`${family?.root?.familyStarted}-children`}>
+                                <div className="leaf leaf-children" data-extended={`${family?.children?.length > 3}`}>
+                                    {
+                                        family.children?.map((child: IIndividual, index: number) => (
+                                            <Individual key={`child-${child.familyStarted}-${index}`} {...child} relation={getRelation(child, 'child')} />
+                                        ))
+                                    }
+                                </div>
                             </div>
-                        </div>
                         )
                     }
                 </div>
