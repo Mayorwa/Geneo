@@ -6,7 +6,7 @@ import Header from "@/components/ui/Header.tsx";
 const DashboardLayout: React.FC<{ children: ReactNode; }> = ({children}) => {
     const location = useLocation();
     const { pathname } = location;
-    const [tabs, _] = useState([
+    const [tabs, ] = useState([
         {
             name: "bio",
             link: "/bio"
@@ -21,18 +21,39 @@ const DashboardLayout: React.FC<{ children: ReactNode; }> = ({children}) => {
         }
     ]);
 
+    const [directories, ] = useState([
+        {
+            name: "home",
+            link: "/home"
+        },
+        {
+            name: "family members",
+            link: "/tree"
+        },
+    ])
+
     return (
         <>
             <main>
-                <div className="bg-black flex flex-col justify-between w-full text-white border-solid border-b border-[#393939] h-[20rem]">
+                <div className="bg-black flex flex-col justify-between w-full text-white border-solid border-b border-[#393939] h-[25rem]">
                     <Header />
                     <div className="container my-8">
-                        <h2 className="text-6xl font-light">Hilts: <span className="family-color">The Jordan's</span></h2>
+                        <ul className="flex flex-row">
+                            {
+                                directories.map((dir, index) => (
+                                    <React.Fragment key={index}>
+                                        {index !== 0 && (<span className="mx-3 text-gray-600">/</span>)}
+                                        <li className={`${index === directories.length-1 ? 'underline': 'hover:underline'} uppercase`} key={index}><Link to={dir.link} className="">{dir.name}</Link></li>
+                                    </React.Fragment>
+                                ))
+                            }
+                        </ul>
+                        <h2 className="text-5xl font-light mt-10"><span className="family-color">Don Vito Corleone</span></h2>
                     </div>
                 </div>
                 <nav className="default-nav m-0 w-full bg-black">
                     <div className="container mx-auto">
-                        <div>
+                        <div className="mx-[-14px]">
                             <ul className="flex flex-row list-none overflow-x-auto p-0 w-full scrollbar-none">
                                 {
                                     tabs.map((tab, index) => (
