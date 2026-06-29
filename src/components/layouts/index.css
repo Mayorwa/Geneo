@@ -1,5 +1,5 @@
 .nav-tab{
-    @apply text-white text-base font-normal h-12 leading-none whitespace-nowrap pt-4 pr-7 pl-4 border-t-[3px] capitalize;
+    @apply text-white text-xs font-normal h-12 leading-none whitespace-nowrap pt-4 pr-7 pl-4 border-t-[3px] uppercase;
 }
 .nav-tab:hover{
     @apply bg-[#393939];
@@ -20,5 +20,5 @@
 }
 
 .family-color {
-    color: rgba(var(--bg-primary-1-alt), 1);
+    color: rgba(var(--bg-secondary), 1);
 }
