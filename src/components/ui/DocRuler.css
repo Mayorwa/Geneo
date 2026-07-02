@@ -1,0 +1,150 @@
+.doc-ruler {
+  --doc-ruler-line: var(--fg-15);
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  position: fixed;
+  top: 30rem;
+  bottom: 20px;
+  left: 0;
+  width: 60px;
+  z-index: 90;
+  pointer-events: none;
+  font-family: var(--font-mono), sans-serif;
+}
+
+.doc-ruler-sensor {
+  position: absolute;
+  inset: 0 0 0 auto;
+  width: 40px;
+  pointer-events: auto;
+}
+.doc-ruler:has(:hover) .doc-ruler-sensor,
+.doc-ruler:has(:focus-visible) .doc-ruler-sensor {
+  inset: 0;
+  width: auto;
+}
+
+.doc-ruler-spine {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 24px;
+  width: 6px;
+  border-left: 1px solid var(--doc-ruler-line);
+  background-image: repeating-linear-gradient(
+    to bottom,
+    var(--doc-ruler-line) 0 1px,
+    transparent 1px 9px
+  );
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 5px 100%;
+}
+
+.doc-ruler-cap {
+  position: absolute;
+  left: 0;
+  width: 10px;
+  height: 1px;
+  background: var(--doc-ruler-line);
+}
+.doc-ruler-cap--top {
+  top: 0;
+}
+.doc-ruler-cap--bottom {
+  bottom: 0;
+}
+
+.doc-ruler-view {
+  position: absolute;
+  right: 16px;
+  width: 20px;
+  min-height: 2px;
+  box-sizing: border-box;
+  background-image: repeating-linear-gradient(
+    61deg,
+    var(--fg-25) 0,
+    var(--fg-25) 1px,
+    transparent 1px,
+    transparent 4px
+  );
+  border-top: 1px solid var(--fg-100);
+  border-bottom: 1px solid var(--fg-100);
+}
+
+.doc-ruler-mark {
+  position: absolute;
+  left: 24px;
+  transform: translateY(-49%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--fg-33);
+  pointer-events: auto;
+}
+
+.doc-ruler-tick {
+  flex: 0 0 auto;
+  width: 10px;
+  height: 1px;
+  background: var(--fg-33);
+  transition:
+    width 0.2s,
+    background-color 0.2s;
+}
+
+.doc-ruler-label {
+  max-width: 40vw;
+  overflow: hidden;
+  white-space: nowrap;
+  opacity: 1;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: inherit;
+  transition:
+    max-width 0.28s cubic-bezier(0.25, 0, 0, 1),
+    opacity 0.2s,
+    color 0.2s;
+}
+.doc-ruler-mark:hover {
+  color: var(--fg-100);
+}
+.doc-ruler-mark:hover .doc-ruler-tick {
+  width: 16px;
+  background: var(--fg-100);
+}
+
+.doc-ruler-mark.is-active {
+  color: var(--fg-100);
+}
+.doc-ruler-mark.is-active .doc-ruler-tick {
+  width: 16px;
+  background: var(--fg-100);
+}
+
+.doc-ruler-mark:focus-visible {
+  outline: 1px solid var(--fg-100);
+  outline-offset: 4px;
+}
+
+/* Hide while the cover reveal is running */
+body.is--loading .doc-ruler {
+  transition: opacity 1s cubic-bezier(0.33, 0, 0.2, 1) 0.75s;
+}
+body.cover--is--visible .doc-ruler {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .doc-ruler-tick,
+  .doc-ruler-label {
+    transition: none;
+  }
+}
+
+@media all and (max-width: 1020px) {
+  .doc-ruler {
+    display: none;
+  }
+}
