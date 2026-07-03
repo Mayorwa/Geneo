@@ -115,10 +115,7 @@ export const LineageProvider = ({ children }: { children: ReactNode }) => {
             newLineage = newLineage.slice(0, siblingIdx);
         }
 
-        // 4. Add new branch
         newLineage.push(data);
-
-        // 5. Update state
         setLineage(newLineage);
 
         return newLineage.length - 1;
