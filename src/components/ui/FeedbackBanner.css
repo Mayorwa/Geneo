@@ -1,0 +1,25 @@
+.feedback-banner {
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: var(--black);
+    border-bottom: 0.5px solid var(--bg-secondary-3);
+}
+
+.feedback-banner__inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.feedback-banner__link {
+    color: var(--bg-primary-1);
+    border-bottom: 1px solid var(--bg-secondary-3);
+    transition: border-bottom-color 0.2s ease;
+}
+.feedback-banner__link:hover {
+    border-bottom-color: rgba(255, 255, 255, 1);
+}
