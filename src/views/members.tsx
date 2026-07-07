@@ -42,8 +42,8 @@ const FamilyPage: React.FC = () => {
     }
     return (
         <>
-            <main className="py-8">
-                <div className="container mx-auto">
+            <main className="pt-8">
+                {/*<div className="container mx-auto">
                     <div className="relative">
                         <div>
                             <Icon name="search" className="w-4 h-4 absolute -translate-y-1/2 top-1/2 left-[1rem] pointer-events-none z-[2]" />
@@ -57,7 +57,7 @@ const FamilyPage: React.FC = () => {
                             inputClasses="border-b border-solid border-gray-30 px-10"
                         />
                     </div>
-                </div>
+                </div>*/}
                 <section className="relative">
                     <div className="family-tree">
                         {

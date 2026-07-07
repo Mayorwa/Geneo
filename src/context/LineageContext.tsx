@@ -12,7 +12,7 @@ interface LineageContextType {
 const LineageContext = createContext<LineageContextType | null>(null);
 const lineageData = [{
     root: {
-        name: 'Don Vito Corleone',
+        name: 'Alicia Harper',
         individualType: IndividualType.Individual,
         gender: 'male',
         familyStarted: '@F011@',

@@ -1,5 +1,6 @@
 import React, {type ReactNode, useEffect} from "react";
 import Header from "@/components/ui/Header.tsx";
+import Footer from "@/components/ui/Footer.tsx";
 
 const DefaultLayout: React.FC<{ children: ReactNode; }> = ({children}) => {
     useEffect(() => {
@@ -20,7 +21,9 @@ const DefaultLayout: React.FC<{ children: ReactNode; }> = ({children}) => {
             <section>
                 {children}
             </section>
+            <Footer />
         </>
     )
 };
 export default DefaultLayout;
+

@@ -3,17 +3,18 @@ import { Link, useLocation } from "react-router-dom";
 
 import "./index.css"
 import Header from "@/components/ui/Header.tsx";
+import Footer from "@/components/ui/Footer.tsx";
 const DashboardLayout: React.FC<{ children: ReactNode; }> = ({children}) => {
     const location = useLocation();
     const { pathname } = location;
     const [tabs, ] = useState([
         {
-            name: "bio",
+            name: "biography",
             link: "/bio"
         },
         {
-            name: "family tree",
-            link: "/tree"
+            name: "Family members",
+            link: "/members"
         },
         {
             name: "timeline",
@@ -35,20 +36,24 @@ const DashboardLayout: React.FC<{ children: ReactNode; }> = ({children}) => {
     return (
         <>
             <main>
-                <div className="bg-black flex flex-col justify-between w-full text-white border-solid border-b border-[#393939] h-[25rem]">
+                <div className="bg-black flex flex-col justify-between w-full text-white border-solid border-b border-[#393939] h-[20rem]">
                     <Header />
                     <div className="container my-8">
                         <ul className="flex flex-row">
                             {
                                 directories.map((dir, index) => (
                                     <React.Fragment key={index}>
-                                        {index !== 0 && (<span className="mx-3 text-gray-600">/</span>)}
-                                        <li className={`${index === directories.length-1 ? 'underline': 'hover:underline'} uppercase`} key={index}><Link to={dir.link} className="">{dir.name}</Link></li>
+                                        {index !== 0 && (<span className="mx-3 text-[--bg-secondary-3]">/</span>)}
+                                        <li className={`${index === directories.length-1 ? 'underline': 'hover:underline'} uppercase`} key={index}><Link to={dir.link} className="text-xs">{dir.name}</Link></li>
                                     </React.Fragment>
                                 ))
                             }
                         </ul>
-                        <h2 className="text-5xl font-light mt-10"><span className="family-color">Don Vito Corleone</span></h2>
+                        <div className="mt-6 flex items-center">
+                            <img src="https://preview.lsvr.sk/lineago/wp-content/uploads/sites/8/2021/12/portrait_01_2-300x300.jpg" className="h-24 rounded-full" alt=""/>
+                            <h2 className="text-5xl font-light ml-2"><span className="family-color">Alicia Harper</span></h2>
+                        </div>
+
                     </div>
                 </div>
                 <nav className="default-nav m-0 w-full bg-black">
@@ -72,6 +77,7 @@ const DashboardLayout: React.FC<{ children: ReactNode; }> = ({children}) => {
                     {children}
                 </section>
             </main>
+            <Footer />
         </>
     );
 }

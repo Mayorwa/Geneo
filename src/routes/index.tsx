@@ -9,7 +9,7 @@ import DefaultLayout from "@/components/layouts/defaultLayout.tsx";
 import DashboardLayout from "@/components/layouts/dashboardLayout.tsx";
 
 // views
-import TreePage from "@/views/tree.tsx"
+import MembersPage from "@/views/members.tsx"
 import IndexPage from "@/views/index.tsx"
 import BioPage from "@/views/bio.tsx";
 import TimelinePage from "@/views/timeline.tsx";
@@ -37,10 +37,10 @@ const Router: React.FC = () => {
                     }
                 />
                 <Route
-                    path={"/tree"}
+                    path={"/members"}
                     element={
                         <LoggedOutGuard>
-                            <DashboardLayout children={<TreePage />}/>
+                            <DashboardLayout children={<MembersPage />}/>
                         </LoggedOutGuard>
                     }
                 />
