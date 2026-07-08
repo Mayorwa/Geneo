@@ -1,5 +1,5 @@
-import LogoSvg from '@/assets/img/logo.svg?react'
-import './FeedbackBanner.css'
+import LogoIcon from "@/components/ui/LogoIcon";
+import './FeedbackBanner.css';
 
 const Footer = () => {
     const year = new Date().getFullYear()
@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer__inner container">
                 <div className="footer__brand">
-                    <LogoSvg className="footer__logo h-10 text-black" />
+                    <LogoIcon className="footer__logo h-10 text-black" />
                 </div>
 
                 <div className="footer__col">

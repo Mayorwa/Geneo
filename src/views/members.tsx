@@ -1,12 +1,12 @@
-import React, {useState} from 'react';
-import TextInput from "@/components/ui/Input/TextInput.tsx";
-import Icon from "@/components/ui/Icon.tsx";
+import React from 'react';
+/*import TextInput from "@/components/ui/Input/TextInput.tsx";
+import Icon from "@/components/ui/Icon.tsx";*/
 import Lineage from "@/components/common/Lineage.tsx";
 import {useLineage} from "@/context/LineageContext.tsx";
 import DocRuler from "@/components/ui/DocRuler.tsx";
 
 const FamilyPage: React.FC = () => {
-    const [search, setSearch] = useState<string>("");
+    // const [search, setSearch] = useState<string>("");
 
     const { lineage: families, familyRefs } = useLineage();
     // Smooth scroll with the same easeOutCubic / 750ms as the original

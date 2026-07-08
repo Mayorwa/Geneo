@@ -1,11 +1,10 @@
-// @ts-ignore
-import LogoSvg from "@/assets/img/logo.svg?react";
+import LogoIcon from "@/components/ui/LogoIcon";
 
 const Header = () => {
     return (
         <div className="container my-4 flex items-center justify-between">
             <div className="flex items-center">
-                <LogoSvg className="h-10 block text-white" />
+                <LogoIcon className="h-10 block text-white" />
                 <h4 className="text-lg ml-2"><span>|</span> Herit</h4>
             </div>
 

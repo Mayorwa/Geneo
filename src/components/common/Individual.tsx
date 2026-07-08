@@ -42,6 +42,7 @@ const Individual: React.FC<Props> = (props) => {
         if (resIdx !== undefined && resIdx !== null) {
             // Wait for DOM update
             requestAnimationFrame(() => {
+                // @ts-ignore
                 const familyEl = familyRefs.current[familyStartedId];
                 if (familyEl) {
                     familyEl.scrollIntoView({
